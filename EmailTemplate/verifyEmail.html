@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8">
+    <title>Order Success</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            mso-line-height-rule: exactly;
+            background-color: #efefef;
+            font-family: sans-serif;
+        }
+        .email-container {
+            max-width: 680px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        .button {
+            background: #899198;
+            border: 1px solid #899198;
+            border-radius: 4px;
+            color: #ffffff;
+            display: block;
+            font-family: sans-serif;
+            font-size: 15px;
+            line-height: 15px;
+            padding: 13px 17px;
+            text-align: center;
+            text-decoration: none;
+            width: fit-content;
+            margin: 0 auto;
+        }
+        .header, .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #dae1e7;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+<center style="width: 100%; background-color: #efefef;">
+    <div class="email-container">
+        <!-- Header : BEGIN -->
+        <div class="header">
+            <img src="https://alextra.in/images/logo.png"/>
+           
+        </div>
+        <!-- Header : END -->
+
+        <!-- Hero Image : BEGIN -->
+        <div>
+            <!-- <img src="https://i.postimg.cc/PJk3bZYp/Whats-App-Image-2024-01-27-at-11-10-42-1.jpg" width="680" height="" alt="Order Success" border="0" style="width: 100%; max-width: 680px; height: auto; background: #dddddd; margin: auto; display: block;"> -->
+        </div>
+        <!-- Hero Image : END -->
+
+        <!-- Order Details : BEGIN -->
+        <div style="padding: 20px;">
+            <h2>Thank you for your order!</h2>
+            <p>Dear ${customerName},</p>
+            <p>We are pleased to confirm your order <strong>${orderId}</strong> placed on <strong>Alextra</strong>.</p>
+            <p><strong style="text-decoration-line:underline; margin-bottom: 2px;">Order Details</strong></p>
+            <ul style="padding: 0px;width:160px
+            ;">
+                <!-- <li style="width: max-content;">Plan: ${productName}</li> -->
+                <li style="width: max-content;">Total Price: ${totalPrice}</li>
+            </ul>
+            <!-- <p>You can download your order details by clicking the button below.</p>
+            <a href="${downloadLink}" class="button">Download Order Details</a> -->
+        </div>
+        <!-- Order Details : END -->
+
+        <!-- Footer : BEGIN -->
+        <div class="footer">
+            <p>If you have any questions, feel free to <a href="mailto:" style="color: #b82121; text-decoration: underline;">contact our support team</a>.</p>
+            <p>Thank you for shopping with us!</p>
+        </div>
+        <!-- Footer : END -->
+    </div>
+</center>
+</body>
+</html>
